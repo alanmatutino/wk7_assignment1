@@ -1,0 +1,98 @@
+body{
+    background-image: url(../wk7_assignment1/images/website\ background.jpg);
+    background-attachment: fixed;
+    max-width: 1680px;
+    margin: auto;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.grid-content{
+    display: grid;
+    background-color: lightskyblue;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    row-gap: 10px;
+}
+.grid-content > div{
+    margin: 20px;
+    padding: 25px;
+    font-size: 30px;
+    text-align: center;
+    background-color: lightpink;
+    border-radius: 30px 45px;
+}
+.grid-content > .item1{
+    background-color: lightcoral;
+    box-shadow: rgb(10, 20, 10) 2px 4px 8px;
+    padding: 20px;
+}
+.grid-content > .item2{
+    background-color: lightgoldenrodyellow;
+    box-shadow: rgb(10, 20, 10) 2px 4px 8px;
+    padding: 20px;
+}
+.grid-content > .item3{
+    background-color: lightsteelblue;
+    box-shadow: rgb(10, 20, 10) 2px 4px 8px;
+    padding: 20px;
+}
+.grid-content > .item4{
+    background-color: lightsalmon;
+    box-shadow: rgb(10, 20, 10) 2px 4px 8px;
+    padding: 20px;
+}
+.menu{
+    position: relative;
+    height: 100px;
+}
+.menu nav{
+    position: absolute;
+    top: 20px;
+    left: -20px;
+}
+.header nav ul {
+    list-style: none;
+    margin: 10px;
+}
+.header nav ul > li{
+    float: left;
+    margin: 5px;
+}
+.header nav ul > li > a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-shadow: rgb(10, 20, 10) 2px 4px 8px;
+}
+.header{
+    background-image: url(../wk7_assignment1/images/website\ header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    box-shadow: rgb(10, 20, 10) 2px 4px 8px;;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 15;
+}
+.item2{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 10;
+}
+.item3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 10;
+    grid-row-end: 15;
+}
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 15;
+    grid-row-end: 20;
+}
