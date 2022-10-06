@@ -1,5 +1,5 @@
 body{
-    background-image: url(../wk7_assignment1/images/website\ background.jpg);
+    background-image: url(../images/website\ background.jpg);
     background-attachment: fixed;
     max-width: 1680px;
     margin: auto;
@@ -63,7 +63,7 @@ body{
     text-shadow: rgb(10, 20, 10) 2px 4px 8px;
 }
 .header{
-    background-image: url(../wk7_assignment1/images/website\ header.jpg);
+    background-image: url(../images/website\ header.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-column-start: 1;
